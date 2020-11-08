@@ -1,16 +1,15 @@
 {
   "name": "webpack-5-static-boilerplate",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "webpack 5 (static) Boilerplate",
   "private": true,
   "scripts": {
     "build": "webpack --config config/webpack.prod.js",
     "dev": "webpack --config config/webpack.dev.js",
     "serve": "webpack serve --config config/webpack.dev.js",
-    "update": "npm update --depth=99999"
   },
-  "author": "Stepan Ivanov <stepan.ivanov@zoho.eu>",
-  "license": "ISC",
+  "author": "",
+  "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.12.3",
     "@babel/preset-env": "^7.12.1",
