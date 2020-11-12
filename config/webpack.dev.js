@@ -13,7 +13,7 @@ module.exports = merge(common, {
         historyApiFallback: true,
         contentBase: paths.src + "/templates",
         watchContentBase: true,
-        open: 'firefox',
+        open: true,
         overlay: true,
         compress: true,
         hot: true,
