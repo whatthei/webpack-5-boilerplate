@@ -18,8 +18,8 @@ npm -v
 ```
 #### Clone the project
 ```shell
-git clone https://github.com/whatthei/webpack-5-static-boilerplate
-cd webpack-5-static-boilerplate/
+git clone https://github.com/whatthei/webpack-5-boilerplate
+cd webpack-5-boilerplate/
 ```
 #### Install the dependencies
 ```shell
