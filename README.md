@@ -55,13 +55,13 @@ npm run serve
 - [`@babel/core`](https://www.npmjs.com/package/@babel/core) - Transpile ES6+ to backwards compatible JavaScript
 - [`@babel/preset-env`](https://www.npmjs.com/package/@babel/preset-env) - Smart defaults for Babel
 #### [`Sass`](https://sass-lang.com/) and [`PostCSS`](https://postcss.org/)
-- [`sass-loader`](https://webpack.js.org/loaders/sass-loader/) - Load SCSS and compile to CSS
-  - [`sass`](https://sass-lang.com/) - A command-line sass executable and a Node.js API
-- [`postcss-loader`](https://webpack.js.org/loaders/postcss-loader/) - Process CSS with PostCSS
+- [`sass-loader`](https://github.com/webpack-contrib/sass-loader) - Load SCSS and compile to CSS
+  - [`sass`](https://github.com/sass/dart-sass) - A command-line sass executable and a Node.js API
+- [`postcss-loader`](https://github.com/webpack-contrib/postcss-loader) - Process CSS with PostCSS
   - [`postcss`](https://github.com/postcss/postcss) - A tool for transforming CSS
   - [`postcss-preset-env`](https://github.com/csstools/postcss-preset-env) - Sensible defaults for PostCSS
-- [`css-loader`](https://webpack.js.org/loaders/css-loader/) - Resolve CSS imports
-- [`style-loader`](https://webpack.js.org/loaders/style-loader/) - Inject CSS into the DOM
+- [`css-loader`](https://github.com/webpack-contrib/css-loader) - Resolve CSS imports
+- [`style-loader`](https://github.com/webpack-contrib/style-loader) - Inject CSS into the DOM
 - [`mini-css-extract-plugin`](https://github.com/webpack-contrib/mini-css-extract-plugin) - Extract CSS into separate files
 - [`css-minimizer-webpack-plugin`](https://github.com/webpack-contrib/css-minimizer-webpack-plugin/) - This plugin uses [`cssnano`](https://github.com/cssnano/cssnano) to optimize and minify your CSS
 #### [`Pug`](https://pugjs.org/) and [`HTML`](https://www.w3.org/) 
