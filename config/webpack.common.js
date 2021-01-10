@@ -32,7 +32,7 @@ module.exports = {
         }),
         // Generates an HTML file from a template
         new HtmlWebpackPlugin({
-            title: 'webpack 5 (static) boilerplate',
+            title: 'webpack 5 boilerplate',
             template: "templates/index.pug",
             filename: "index.html",
             minify: false,
