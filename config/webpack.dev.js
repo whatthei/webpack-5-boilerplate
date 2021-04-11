@@ -11,13 +11,13 @@ module.exports = merge(common, {
     // Spin up a server for quick development
     devServer: {
         historyApiFallback: true,
-        contentBase: paths.src + "/templates",
-        watchContentBase: true,
+        contentBase: paths.src,
+        // watchContentBase: true,
         open: true,
-        overlay: true,
-        compress: true,
-        hot: true,
-        inline: true,
+        // overlay: true,
+        // compress: true,
+        // hot: true,
+        // inline: true,
     },
     plugins: [
         // Only update what has changed on hot reload
