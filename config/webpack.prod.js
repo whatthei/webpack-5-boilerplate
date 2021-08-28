@@ -2,7 +2,7 @@ const {merge} = require('webpack-merge');
 const TerserPlugin = require('terser-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const CssMinimizerPlugin = require('css-minimizer-webpack-plugin');
-const common = require('./webpack.common.js');
+const common = require('./webpack.config.js');
 
 module.exports = merge(common, {
     // Set the mode to production
@@ -23,12 +23,7 @@ module.exports = merge(common, {
             {
                 test: /\.s[ac]ss$/,
                 use: [
-                    {
-                        loader: MiniCssExtractPlugin.loader,
-                        options: {
-                            publicPath: '..',
-                        },
-                    },
+                    MiniCssExtractPlugin.loader,
                     'css-loader',
                     'postcss-loader',
                     'sass-loader',

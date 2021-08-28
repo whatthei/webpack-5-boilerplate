@@ -1,7 +1,5 @@
 const paths = require('./paths');
-const webpack = require('webpack');
 const ProgressBarPlugin = require('progress-bar-webpack-plugin');
-const {CleanWebpackPlugin} = require('clean-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
@@ -9,31 +7,22 @@ module.exports = {
     context: paths.src,
     entry: {
         main: [
-            '/scripts/index.js',
-            '/styles/styles.scss',
+            '/app.js',
         ],
     },
     // Where webpack outputs the assets and bundles
     output: {
         path: paths.build,
-        publicPath: './',
         filename: 'js/[name].bundle.js',
+        clean: true
     },
     // Customize the webpack build process
     plugins: [
         // Add progress bar for build process
         new ProgressBarPlugin(),
-        // Removes/cleans build folders and unused assets when rebuilding
-        new CleanWebpackPlugin(),
-        // Add jQuery for global stage
-        new webpack.ProvidePlugin({
-            $: 'jquery',
-            jQuery: 'jquery',
-        }),
         // Generates an HTML file from a template
         new HtmlWebpackPlugin({
-            title: 'webpack 5 boilerplate',
-            template: "templates/index.pug",
+            template: "templates/index.html",
             filename: "index.html",
             minify: false,
         }),
@@ -45,14 +34,6 @@ module.exports = {
                 test: /\.js$/,
                 exclude: /node_modules/,
                 use: 'babel-loader',
-            },
-            // PUG: Use pug to transpile html files
-            {
-                test: /\.pug$/,
-                loader: 'pug-loader',
-                options: {
-                    pretty: true,
-                },
             },
             // HTML: Processing links in html files
             {

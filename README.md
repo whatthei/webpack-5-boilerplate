@@ -48,7 +48,6 @@ npm run serve
 - [`webpack-dev-server`](https://github.com/webpack/webpack-dev-server) - Development server for webpack
 - [`copy-webpack-plugin`](https://github.com/webpack-contrib/copy-webpack-plugin) - Copies individual files or entire directories, which already exist, to the build directory
 - [`terser-webpack-plugin`](https://github.com/webpack-contrib/terser-webpack-plugin) - This plugin uses [`terser`](https://github.com/terser/terser) to minify your JavaScript.
-- [`clean-webpack-plugin`](https://github.com/johnagan/clean-webpack-plugin) - Remove/clean build folders
 - [`progress-bar-webpack-plugin`](https://github.com/clessg/progress-bar-webpack-plugin) - Displaying compilation progress
 #### [`Babel`](https://babeljs.io/)
 - [`babel-loader`](https://github.com/babel/babel-loader) - Transpile files with Babel and webpack
@@ -64,9 +63,7 @@ npm run serve
 - [`style-loader`](https://github.com/webpack-contrib/style-loader) - Inject CSS into the DOM
 - [`mini-css-extract-plugin`](https://github.com/webpack-contrib/mini-css-extract-plugin) - Extract CSS into separate files
 - [`css-minimizer-webpack-plugin`](https://github.com/webpack-contrib/css-minimizer-webpack-plugin/) - This plugin uses [`cssnano`](https://github.com/cssnano/cssnano) to optimize and minify your CSS
-#### [`Pug`](https://pugjs.org/) and [`HTML`](https://www.w3.org/) 
-- [`pug-loader`](https://github.com/pugjs/pug-loader) - Loads Pug templates and returns a function
-  - [`pug`](https://github.com/pugjs/pug) - High-performance template
+#### [`HTML`](https://www.w3.org/)
 - [`html-loader`](https://github.com/pugjs/pug-loader) - Exports HTML as string, requires references to static resources
 - [`html-webpack-plugin`](https://github.com/jantimon/html-webpack-plugin) - Generate HTML files from template
 #### For example
