@@ -2,7 +2,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
-A starter webpack 5 boilerplate using Babel, Sass, PostCSS and Pug with a hot development server and optimized production build.
+A starter webpack 5 boilerplate using Babel, Sass, PostCSS and HTML with a hot development server and optimized production build.
 
 ## Table of Contents
 1. [Get Started](#get-started)
@@ -67,7 +67,7 @@ npm run serve
 - [`html-loader`](https://github.com/pugjs/pug-loader) - Exports HTML as string, requires references to static resources
 - [`html-webpack-plugin`](https://github.com/jantimon/html-webpack-plugin) - Generate HTML files from template
 #### For example
-- [`bootstrap 5`](https://github.com/twbs/bootstrap) - Front-end framework
+- [`bootstrap 5`](https://github.com/twbs/bootstrap) - Front-end open source toolkit
 
 ## License
 This project is open source and available under the [MIT License](https://opensource.org/licenses/MIT).
