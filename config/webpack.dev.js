@@ -6,7 +6,7 @@ module.exports = merge(common, {
     // Set the mode to development
     mode: 'development',
     // Control how source maps are generated
-    devtool: 'inline-cheap-module-source-map',
+    devtool: 'eval-cheap-module-source-map',
     // Spin up a server for quick development
     devServer: {
         watchFiles: [paths.src + '/templates/*.html'],

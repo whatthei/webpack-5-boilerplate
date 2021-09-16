@@ -7,7 +7,7 @@ module.exports = {
     context: paths.src,
     entry: {
         main: [
-            '/app.js',
+            '/app.js'
         ],
     },
     // Where webpack outputs the assets and bundles
@@ -24,7 +24,7 @@ module.exports = {
         new HtmlWebpackPlugin({
             template: "templates/index.html",
             filename: "index.html",
-            minify: false,
+            minify: false
         }),
     ],
     module: {
@@ -33,7 +33,7 @@ module.exports = {
             {
                 test: /\.js$/,
                 exclude: /node_modules/,
-                use: 'babel-loader',
+                use: 'babel-loader'
             },
             // HTML: Processing links in html files
             {
