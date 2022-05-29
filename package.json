@@ -1,6 +1,6 @@
 {
   "name": "webpack-5-boilerplate",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "webpack 5 Boilerplate",
   "private": true,
   "scripts": {
