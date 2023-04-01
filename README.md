@@ -67,7 +67,7 @@ npm run serve
 - [`html-loader`](https://github.com/pugjs/pug-loader) - Exports HTML as string, requires references to static resources
 - [`html-webpack-plugin`](https://github.com/jantimon/html-webpack-plugin) - Generate HTML files from template
 #### For example
-- [`bootstrap 5`](https://github.com/twbs/bootstrap) - Front-end open source toolkit
+- [`bulma`](https://github.com/jgthms/bulma) - Front-end open source toolkit
 
 ## License
 This project is open source and available under the [MIT License](https://opensource.org/licenses/MIT).
